@@ -1,0 +1,4 @@
+classTweaker	v1	named
+transitive-accessible method net/minecraft/nbt/NbtElement write (Ljava/io/DataOutput;)V
+transitive-accessible method net/minecraft/nbt/NbtElement read (Ljava/io/DataInput;)V
+transitive-inject-interface net/minecraft/nbt/NbtCompound net/fmg793/moreids/impl/id/IShortArrayProvider

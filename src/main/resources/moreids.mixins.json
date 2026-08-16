@@ -1,0 +1,22 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "net.fmg793.moreids.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+	],
+	"client": [
+		"id.NbtCompoundMixin",
+		"id.NbtElementMixin",
+		"id.WorldChunkMixin",
+		"id.WorldMixin",
+		"id.AlphaChunkStorageMixin",
+		"id.ChunkNibbleStorageMixin",
+		"id.OverworldChunkGeneratorMixin"
+	],
+	"server": [
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

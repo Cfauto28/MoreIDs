@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "moreids",
+	"version": "${version}",
+	"name": "MoreIDs",
+	"description": "Adds MoreIDs to your Cypress",
+	"authors": [
+		"FMG793!"
+	],
+  "license": "LGPL-3.0-or-later",
+	"icon": "assets/moreids/icon.png",
+	"environment": "client",
+  "mixins": [
+		"moreids.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "1.0.0-alpha.1.0.16.5.20",
+    "cypress_lib_core": "*"
+	},
+	"accessWidener": "moreids.classtweaker"
+}
