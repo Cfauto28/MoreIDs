@@ -12,7 +12,8 @@
 		"id.WorldMixin",
 		"id.AlphaChunkStorageMixin",
 		"id.ChunkNibbleStorageMixin",
-		"id.OverworldChunkGeneratorMixin"
+		"id.OverworldChunkGeneratorMixin",
+		"id.ScreenItemCheatMixin"
 	],
 	"server": [
 	],
